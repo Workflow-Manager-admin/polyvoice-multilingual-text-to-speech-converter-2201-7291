@@ -76,17 +76,16 @@ const PolyVoice = () => {
         <div className="card-header">
           <h2>PolyVoice</h2>
           <div className="theme-toggle">
-            <div className="theme-icons">
-              <span className={`sun-icon ${isDarkTheme ? '' : 'active'}`} aria-hidden="true">☀️</span>
-              <span className={`moon-icon ${isDarkTheme ? 'active' : ''}`} aria-hidden="true">🌙</span>
-            </div>
             <label className="toggle-switch" aria-label={isDarkTheme ? "Switch to light theme" : "Switch to dark theme"}>
               <input 
                 type="checkbox" 
                 checked={!isDarkTheme}
                 onChange={toggleTheme}
               />
-              <span className="toggle-slider"></span>
+              <span className="toggle-slider">
+                <span className={`sun-icon ${isDarkTheme ? '' : 'active'}`} aria-hidden="true">☀️</span>
+                <span className={`moon-icon ${isDarkTheme ? 'active' : ''}`} aria-hidden="true">🌙</span>
+              </span>
             </label>
           </div>
         </div>
