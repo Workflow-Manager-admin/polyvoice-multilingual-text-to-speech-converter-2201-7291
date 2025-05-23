@@ -77,8 +77,8 @@ const PolyVoice = () => {
           <h2>PolyVoice</h2>
           <div className="theme-toggle">
             <div className="theme-icons">
-              <span className={`moon-icon ${isDarkTheme ? 'active' : ''}`} aria-hidden="true">🌙</span>
               <span className={`sun-icon ${!isDarkTheme ? 'active' : ''}`} aria-hidden="true">☀️</span>
+              <span className={`moon-icon ${isDarkTheme ? 'active' : ''}`} aria-hidden="true">🌙</span>
             </div>
             <label className="toggle-switch" aria-label={isDarkTheme ? "Switch to light theme" : "Switch to dark theme"}>
               <input 
