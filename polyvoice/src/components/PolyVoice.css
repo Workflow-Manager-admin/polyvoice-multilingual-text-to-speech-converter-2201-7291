@@ -13,10 +13,10 @@
   background: var(--glass-background);
   backdrop-filter: var(--glass-blur);
   -webkit-backdrop-filter: var(--glass-blur);
-  border-radius: 16px;
+  border-radius: 18px;
   box-shadow: var(--glass-shadow);
   border: var(--glass-border);
-  padding: 30px;
+  padding: 32px;
   transition: all 0.3s ease;
 }
 
@@ -34,10 +34,15 @@
   height: 100%;
   background: linear-gradient(
     135deg,
-    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.15) 0%,
     rgba(255, 255, 255, 0.05) 100%
   );
   z-index: -1;
+}
+
+.polyvoice-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--glass-shadow), 0 15px 35px rgba(0, 0, 0, 0.1);
 }
 
 /* Card header with title and theme toggle */
