@@ -1,9 +1,36 @@
 :root {
+  /* Default theme: dark */
   --kavia-orange: #E87A41;
   --kavia-dark: #1A1A1A;
+  --background: #121212;
+  --surface: rgba(255, 255, 255, 0.05);
   --text-color: #ffffff;
   --text-secondary: rgba(255, 255, 255, 0.7);
   --border-color: rgba(255, 255, 255, 0.1);
+  --glass-background: rgba(255, 255, 255, 0.08);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  --glass-border: 1px solid rgba(255, 255, 255, 0.1);
+  --glass-blur: blur(10px);
+  --button-primary: #E87A41;
+  --button-hover: #FF8B4D;
+  --button-text: #ffffff;
+  --toggle-button-bg: #3a3a3a;
+  --toggle-circle: #ffffff;
+}
+
+/* Light theme variables */
+.light-theme {
+  --kavia-dark: #ffffff;
+  --background: #f5f5f5;
+  --surface: rgba(0, 0, 0, 0.02);
+  --text-color: #121212;
+  --text-secondary: rgba(0, 0, 0, 0.7);
+  --border-color: rgba(0, 0, 0, 0.1);
+  --glass-background: rgba(255, 255, 255, 0.7);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+  --glass-border: 1px solid rgba(255, 255, 255, 0.5);
+  --toggle-button-bg: #d8d8d8;
+  --toggle-circle: #121212;
 }
 
 body {
