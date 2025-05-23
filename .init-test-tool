@@ -1,0 +1,4 @@
+{
+    "command": "npm run test",
+    "working_directory": "/home/kavia/workspace/code-generation/polyvoice-multilingual-text-to-speech-converter-2201-7291/polyvoice"
+}
