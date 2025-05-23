@@ -83,8 +83,8 @@ const PolyVoice = () => {
                 onChange={toggleTheme}
               />
               <span className="toggle-slider">
-                <span className={`sun-icon ${isDarkTheme ? '' : 'active'}`} aria-hidden="true">☀️</span>
                 <span className={`moon-icon ${isDarkTheme ? 'active' : ''}`} aria-hidden="true">🌙</span>
+                <span className={`sun-icon ${isDarkTheme ? '' : 'active'}`} aria-hidden="true">☀️</span>
               </span>
             </label>
           </div>
