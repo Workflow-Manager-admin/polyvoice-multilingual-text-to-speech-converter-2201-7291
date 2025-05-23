@@ -133,3 +133,28 @@ body {
   padding: 12px 24px;
   font-size: 1.1rem;
 }
+
+/* Updated styles for PolyVoice integration */
+.hero {
+  padding-top: 120px;
+  padding-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+/* Ensure app background is properly applied */
+body {
+  background-color: var(--background);
+  transition: all 0.3s ease;
+}
+
+/* Make sure the entire app container inherits theme properly */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background);
+  transition: all 0.3s ease;
+}
