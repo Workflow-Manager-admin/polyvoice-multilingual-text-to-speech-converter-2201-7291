@@ -3,34 +3,41 @@
   --kavia-orange: #E87A41;
   --kavia-dark: #1A1A1A;
   --background: #121212;
+  /* Rich dark blue gradient */
+  --gradient-bg: linear-gradient(135deg, #1a1f35 0%, #2d1b36 100%);
   --surface: rgba(255, 255, 255, 0.05);
   --text-color: #ffffff;
-  --text-secondary: rgba(255, 255, 255, 0.7);
-  --border-color: rgba(255, 255, 255, 0.1);
+  --text-secondary: rgba(255, 255, 255, 0.8);
+  --border-color: rgba(255, 255, 255, 0.15);
   --glass-background: rgba(255, 255, 255, 0.08);
-  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-  --glass-border: 1px solid rgba(255, 255, 255, 0.1);
-  --glass-blur: blur(10px);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  --glass-border: 1px solid rgba(255, 255, 255, 0.15);
+  --glass-blur: blur(12px);
   --button-primary: #E87A41;
   --button-hover: #FF8B4D;
   --button-text: #ffffff;
-  --toggle-button-bg: #3a3a3a;
+  --toggle-button-bg: #464e68;
   --toggle-circle: #ffffff;
+  /* Theme icon colors */
+  --moon-color: #8ca6db;
+  --sun-color: #f5d76e;
 }
 
 /* Light theme variables */
 .light-theme {
   --kavia-dark: #ffffff;
-  --background: #f5f5f5;
+  --background: #f5f8ff;
+  /* Soft pastel gradient */
+  --gradient-bg: linear-gradient(135deg, #e9f0ff 0%, #f5eeff 100%);
   --surface: rgba(0, 0, 0, 0.02);
-  --text-color: #121212;
-  --text-secondary: rgba(0, 0, 0, 0.7);
-  --border-color: rgba(0, 0, 0, 0.1);
+  --text-color: #2a2a3a;
+  --text-secondary: rgba(42, 42, 58, 0.75);
+  --border-color: rgba(0, 0, 0, 0.08);
   --glass-background: rgba(255, 255, 255, 0.7);
   --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
   --glass-border: 1px solid rgba(255, 255, 255, 0.5);
-  --toggle-button-bg: #d8d8d8;
-  --toggle-circle: #121212;
+  --toggle-button-bg: #d8dcec;
+  --toggle-circle: #5062b0;
 }
 
 body {
