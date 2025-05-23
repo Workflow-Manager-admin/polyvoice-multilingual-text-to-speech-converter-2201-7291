@@ -1,10 +1,10 @@
 :root {
   /* Default theme: dark */
-  --kavia-orange: #E87A41;
+  --kavia-primary: #6C63FF;
   --kavia-dark: #1A1A1A;
   --background: #121212;
-  /* Rich dark blue gradient */
-  --gradient-bg: linear-gradient(135deg, #1a1f35 0%, #2d1b36 100%);
+  /* Rich dark blue-purple gradient */
+  --gradient-bg: linear-gradient(135deg, #2A2D3E 0%, #3A3361 100%);
   --surface: rgba(255, 255, 255, 0.05);
   --text-color: #ffffff;
   --text-secondary: rgba(255, 255, 255, 0.8);
@@ -13,8 +13,8 @@
   --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
   --glass-border: 1px solid rgba(255, 255, 255, 0.15);
   --glass-blur: blur(12px);
-  --button-primary: #E87A41;
-  --button-hover: #FF8B4D;
+  --button-primary: #6C63FF;
+  --button-hover: #7A72FF;
   --button-text: #ffffff;
   --toggle-button-bg: #464e68;
   --toggle-circle: #ffffff;
