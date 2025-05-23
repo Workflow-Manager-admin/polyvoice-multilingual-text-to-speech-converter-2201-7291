@@ -78,11 +78,11 @@
 }
 
 .sun-icon {
-  right: 7px;
+  left: 7px;
 }
 
 .moon-icon {
-  left: 7px;
+  right: 7px;
 }
 
 .sun-icon.active, .moon-icon.active {
