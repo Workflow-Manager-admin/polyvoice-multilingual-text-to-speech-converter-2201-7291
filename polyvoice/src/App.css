@@ -121,7 +121,7 @@ body {
 }
 
 .btn {
-  background-color: var(--kavia-orange);
+  background-color: var(--button-primary);
   color: white;
   border: none;
   border-radius: 4px;
@@ -133,7 +133,7 @@ body {
 }
 
 .btn:hover {
-  background-color: #FF8B4D;
+  background-color: var(--button-hover);
 }
 
 .btn-large {
