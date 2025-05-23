@@ -67,17 +67,22 @@
   gap: 10px;
 }
 
-.theme-icons {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-right: 3px;
-}
-
 .sun-icon, .moon-icon {
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   opacity: 0.5;
   transition: all 0.3s ease;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.sun-icon {
+  right: 7px;
+}
+
+.moon-icon {
+  left: 7px;
 }
 
 .sun-icon.active, .moon-icon.active {
