@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import PolyVoice from './components/PolyVoice';
 
 function App() {
   return (
@@ -8,9 +9,8 @@ function App() {
         <div className="container">
           <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
             <div className="logo">
-              <span className="logo-symbol">*</span> KAVIA AI
+              <span className="logo-symbol">*</span> PolyVoice
             </div>
-            <button className="btn">Template Button</button>
           </div>
         </div>
       </nav>
@@ -18,15 +18,15 @@ function App() {
       <main>
         <div className="container">
           <div className="hero">
-            <div className="subtitle">AI Workflow Manager Template</div>
+            <div className="subtitle">Multilingual Text-to-Speech Converter</div>
             
-            <h1 className="title">polyvoice</h1>
+            <h1 className="title">PolyVoice</h1>
             
             <div className="description">
-              Start building your application.
+              Convert your text to natural-sounding speech with our easy-to-use tool.
             </div>
             
-            <button className="btn btn-large">Button</button>
+            <PolyVoice />
           </div>
         </div>
       </main>
