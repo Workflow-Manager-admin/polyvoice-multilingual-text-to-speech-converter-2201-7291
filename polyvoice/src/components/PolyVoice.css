@@ -167,8 +167,8 @@
 
 .input-text:focus {
   outline: none;
-  border-color: var(--kavia-orange);
-  box-shadow: 0 0 0 3px rgba(232, 122, 65, 0.15);
+  border-color: var(--kavia-primary);
+  box-shadow: 0 0 0 3px rgba(108, 99, 255, 0.15);
 }
 
 .light-theme .input-text {
