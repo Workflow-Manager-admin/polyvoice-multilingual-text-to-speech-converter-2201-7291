@@ -59,19 +59,39 @@
 .theme-toggle {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
 }
 
-.toggle-label {
-  font-size: 0.9rem;
-  color: var(--text-secondary);
+.theme-icons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-right: 3px;
+}
+
+.sun-icon, .moon-icon {
+  font-size: 1.2rem;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+
+.sun-icon.active, .moon-icon.active {
+  opacity: 1;
+}
+
+.moon-icon.active {
+  color: var(--moon-color);
+}
+
+.sun-icon.active {
+  color: var(--sun-color);
 }
 
 .toggle-switch {
   position: relative;
   display: inline-block;
-  width: 50px;
-  height: 24px;
+  width: 52px;
+  height: 26px;
 }
 
 .toggle-switch input {
