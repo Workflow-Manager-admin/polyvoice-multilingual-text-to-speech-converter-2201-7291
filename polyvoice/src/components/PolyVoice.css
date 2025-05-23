@@ -244,4 +244,22 @@
     width: 100%;
     justify-content: flex-end;
   }
+  
+  .toggle-switch {
+    width: 56px;
+    height: 28px;
+  }
+  
+  .toggle-slider:before {
+    height: 20px;
+    width: 20px;
+  }
+  
+  .toggle-switch input:checked + .toggle-slider:before {
+    transform: translateX(28px);
+  }
+  
+  .sun-icon, .moon-icon {
+    font-size: 0.8rem;
+  }
 }
