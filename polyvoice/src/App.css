@@ -78,7 +78,7 @@ body {
 }
 
 .logo-symbol {
-  color: var(--kavia-orange);
+  color: var(--kavia-primary);
 }
 
 .container {
@@ -100,7 +100,7 @@ body {
 }
 
 .subtitle {
-  color: var(--kavia-orange);
+  color: var(--kavia-primary);
   font-weight: 500;
   font-size: 1.1rem;
 }
